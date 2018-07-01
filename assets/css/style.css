@@ -1,34 +1,41 @@
-h1{
-    color: blue;
-}
-
-/* .p {
-    font-style: 12px;
-    font-family: 'Arial', 'helvetica Neue', Helvetica, sams-serif;
-    line-height: 2px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    spacing: 2.0px
-
-} */
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     
     font-size: 16px;
     font-weight: regular;
 
     line-height: 150%;
     letter-spacing: 0px;
-    color: #333333;
+    background: #eeeeee;
+    /* width: 960px; */
+    height: 500px;
+    /* padding-left: 100px;  */
+    /* padding-right: 300px; */
+
   }
 
-  #relative {
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+    line-height: 150%;
+  }
+
+  #container {
     background: #eeeeee;
     position: relative;
-    padding-left: 50px;
+    /* padding-left: 20px; */
     margin-bottom: 18;
-    width: 960px;
+    /* width: 960px; */
     height: 960px;
+  }
+
+  footer {
+    padding: 20px;
+    border-top-color: #4aaaa5;
+    border-top: 5px;
+    text-align: center;
+    background: #666666;
   }
   
